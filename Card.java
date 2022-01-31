@@ -3,10 +3,10 @@ import java.util.Random;
 public class Card {
 
     // Initializing Fields
-    int attack;
-    int defense;
-    String creatureType;
-    String damageType;
+    private int attack;
+    private int defense;
+    private String creatureType;
+    private String damageType;
 
 
     // Constructors
@@ -16,15 +16,6 @@ public class Card {
 
         attack = random.nextInt(4) + 1;
         defense = random.nextInt(4) + 1;
-        this.creatureType = creatureType;
-        this.damageType = damageType;
-
-    }
-
-    public Card(int attack, int defense, String creatureType, String damageType) {
-
-        this.attack = attack;
-        this.defense = defense;
         this.creatureType = creatureType;
         this.damageType = damageType;
 

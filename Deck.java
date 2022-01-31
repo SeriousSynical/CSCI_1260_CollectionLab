@@ -1,10 +1,10 @@
 public class Deck {
 
     // Initializing Fields
-    int maxSize;
-    int currentSize;
-    boolean[] availability;
-    Card[] deck;
+    private final int maxSize;
+    private int currentSize;
+    private final boolean[] availability;
+    private final Card[] deck;
 
 
     // Constructors
